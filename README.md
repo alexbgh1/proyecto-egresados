@@ -6,6 +6,7 @@
 <p>Alex Bastián Garnica Hernández</p>
 <p>Geovanni Leandro Curguan Duamante</p>
 <p>Manuel José Mariano Care Poo</p>
+<p>Gerson Andrade Meza</p>
 <h2>create_db.sql</h2>
 <p>El archivo <b>create_db.sql</b> implementa el siguiente diagrama Entidad Relación, dentro del archivo hay comentados algunos ejemplos de ejecución.</p>
 
