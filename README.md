@@ -3,6 +3,7 @@
 
 <h2>Integrantes</h2>
 <p>José Nicolás Aillapi Gomez</p>
+<p>Alex Bastián Garnica Hernández</p>
 <h2>create_db.sql</h2>
 <p>El archivo <b>create_db.sql</b> implementa el siguiente diagrama Entidad Relación, dentro del archivo hay comentados algunos ejemplos de ejecución.</p>
 
