@@ -1,5 +1,6 @@
 <h1>Proyecto-egresados</h1>
-<p>Proyecto egresados arquitectura software...</p>
+<p>Proyecto egresados arquitectura software.</p>
+<p>Para ejecutar el docker, se debe poner "docker-compose up", de esa manera se creará la base de datos, así mismo, imprime al final las tablas creadas.</p>
 
 <h2>Integrantes</h2>
 <p>José Nicolás Aillapi Gomez</p>
