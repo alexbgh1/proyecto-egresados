@@ -18,7 +18,8 @@ except mariadb.Error as e:
 
 cur = conn.cursor()
 
-with open('./create_db.sql', 'r') as myfile:
-  data = myfile.read()
-  cur.execute(data)
+# with open('./create_db.sql', 'r') as myfile:
+#   data = myfile.read()
+#   cur.execute(data)
 
+cur.execute("CREATE DATABASE xd")
