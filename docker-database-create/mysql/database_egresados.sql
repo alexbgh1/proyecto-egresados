@@ -71,3 +71,50 @@ CREATE TABLE IF NOT EXISTS Publicaciones(
 
 
 show tables;
+
+
+
+
+/*
+-- Example creating an user
+INSERT INTO `User`(
+    `rut`, `nombres`, `apellidos`, `telefono`, `descripcion`, `foto`,
+    `pais`, `region`, `comuna`, `direccion`, 
+    `instagram`, `twitter`, `facebook`, `linkedin`,
+    `mail`, `password`, `categoria`)
+    VALUES (
+    '12345678-9','Juan Emilio','Perez Rodriguez','123456789','Estudiante de ingenieria informatica','https://i.imgur.com/gXcZxLr_d.webp?maxwidth=760&fidelity=grand',
+    'Chile','Metropolitana','Santiago','Av. Siempre Viva 123',
+    '@juanperez','@juanperez','JuanPerez362','juanperez',
+    'JuanPerez@gmail.com','password123','user');
+INSERT INTO `User`(
+    `rut`, `nombres`, `apellidos`, `telefono`, `descripcion`, `foto`,
+    `pais`, `region`, `comuna`, `direccion`, 
+    `instagram`, `twitter`, `facebook`, `linkedin`,
+    `mail`, `password`, `categoria`)
+    VALUES (
+    '1231232-k','','','','soy admin','https://i.imgur.com/wYTCtRu_d.webp?maxwidth=760&fidelity=grand',
+    '','','','',
+    '','','','',
+    'pedro_admin@hotmail.com','soyadmin','admin');
+-- Agregar trabajo
+INSERT INTO `Trabajo`(
+    `ref_user_trabajo`, `situacion_laboral`, `lugar_de_trabajo`, `cargo`, `inicio`, `fin`)
+    VALUES (
+    1,'Trabajando','Google','Programador','2019-12-12','2020-12-12');
+INSERT INTO `Trabajo`(
+    `ref_user_trabajo`, `situacion_laboral`, `lugar_de_trabajo`, `cargo`, `inicio`, `fin`)
+    VALUES (
+    1,'Trabajando','McDonalds','Gerente','2020-12-12','2022-12-12');
+-- Crear publicacion u oferta
+INSERT INTO `Publicaciones`(
+    `ref_user_publicacion`, `titulo`, `descripcion`, `fecha_creacion`)
+    VALUES (
+    2,'Titulo de la publicacion','Descripcion de la publicacion','2020-12-12');
+INSERT INTO `Ofertas`(
+    `ref_user_oferta`, `titulo`, `descripcion`, `duracion`, `remuneracion`, `tipo`, `fecha_creacion`, `visibilidad`)
+    VALUES (
+    2,'Titulo de la oferta','Descripcion de la oferta','1 año','100000','Tiempo completo','2022-12-12','visible');
+-- Ejemplo consulta User con Trabajo; utilizando JOIN
+SELECT nombres,lugar_de_trabajo, inicio,fin FROM `User` INNER JOIN `Trabajo` ON `User`.`id` = `Trabajo`.`ref_user_trabajo`;
+*/
