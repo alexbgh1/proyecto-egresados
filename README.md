@@ -15,7 +15,7 @@ Se juntó con un **docker-compose.yml**, el modelo de la base de datos se presen
    - Manuel José Mariano Care Poo
    - Gerson Andrade Meza
    - Sebastián Andres Oyarzun Ruiz
-   - Jorge Hern
+   - Jorge Hernán Andrade Gómez
 
 ## Ejecutar el docker
 
